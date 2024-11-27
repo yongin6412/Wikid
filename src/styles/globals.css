@@ -27,6 +27,22 @@
 
   /* Secondary-Yellow */
   --yellow: #fdd181;
+
+  /* font-size */
+  --font-size-xsmall: 10px;
+  --font-size-small: 16px;
+  --font-size-medium: 20px;
+  --font-size-large: 30px;
+  --font-size-xlarge: 32px;
+  --font-size-xxlarge: 50px;
+
+  /* line-height */
+  --line-height-xsmall: 11px;
+  --line-height-small: 18px;
+  --line-height-medium: 23px;
+  --line-height-large: 34px;
+  --line-height-xlarge: 37px;
+  --line-height-xxlarge: 57px;
 }
 
 * {

@@ -43,23 +43,29 @@ function MainPage() {
               직접 작성해 봐요
             </p>
             <Image
-              className={style.main_wirter_content_img}
+              className={style.main_wirter_content_img1}
               src={img1}
               alt="이미지1"
             />
           </div>
           <div>
-            <Image src={mes3} alt="메시지3" />
+            <Image
+              className={style.main_wirter_content_img2}
+              src={mes3}
+              alt="메시지3"
+            />
           </div>
         </div>
       </section>
       <section className={style.main_share_container}>
         <div className={style.main_share_box}>
-          <h4>SHARE</h4>
-          <p>
-            내 위키 만들고 <br />
-            친구에게 공유해요
-          </p>
+          <div className={style.main_share_content}>
+            <h4>SHARE</h4>
+            <p>
+              내 위키 만들고 <br />
+              친구에게 공유해요
+            </p>
+          </div>
         </div>
         <div className={style.main_share_img_box}>
           <Image src={img2} alt="이미지2" />
@@ -81,8 +87,12 @@ function MainPage() {
               <Image src={mes2} alt="메시지2" />
             </div>
             <div className={style.main_view_img}>
-              <Image src={img6} alt="이미지6" />
-              <Image src={mes1} alt="메시지1" />
+              <div>
+                <Image src={img6} alt="이미지6" />
+              </div>
+              <div>
+                <Image src={mes1} alt="메시지1" />
+              </div>
             </div>
           </div>
         </div>
